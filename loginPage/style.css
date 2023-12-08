@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.fill {
+    position: absolute;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+.center {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    box-shadow: 5px;
+    border: 2px solid gray;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ele {
+    padding-top: 20px;
+}
+
+.ele1 {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
