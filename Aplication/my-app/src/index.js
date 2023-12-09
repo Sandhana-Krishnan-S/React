@@ -4,7 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// const age = 222;
+// var sol;
+// if(age > 18) {
+//   sol = <h1 style={{color:"green"}}>Elegible</h1>;
+// }
+// else {
+//   sol = <h1 style={{color:"red"}}>Not Elegible</h1>;
+// }
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(sol);
 root.render(
   <React.StrictMode>
     <App />
