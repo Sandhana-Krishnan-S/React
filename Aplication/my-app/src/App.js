@@ -1,9 +1,10 @@
-import './App.css';
+import FunComp from './Components/FunComp.js';
 
 function App() {
   return (
     <div className="Parrent">
       <div className='Main'>
+        <FunComp />
         <div className='Form'>
           <h1 id='center'>Form In React</h1>
           <div>
