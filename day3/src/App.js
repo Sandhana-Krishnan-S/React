@@ -1,3 +1,4 @@
+import CarClass from './Components/CarClass';
 import ClassComponent from './Components/ClassComponent';
 import Greeting from './Components/Greeting';
 import Hello from './Components/Hello';
@@ -10,6 +11,7 @@ function App() {
       <ClassComponent />
       <One />
       <Greeting />
+      <CarClass />
     </div>
   );
 }
