@@ -1,0 +1,13 @@
+/* styles.css (or your preferred stylesheet) */
+.product-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .product-card {
+    flex: 0 0 calc(33.33% - 10px);
+    background-color: aqua;
+    /* Add additional styling as needed */
+  }
+  
